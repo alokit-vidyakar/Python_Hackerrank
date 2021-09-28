@@ -2,3 +2,5 @@
 *.doc
 *.docx
 
+git branch --contains <commit>
+git log --pretty=format:"%H"

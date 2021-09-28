@@ -1,3 +1,4 @@
+#https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 if __name__ == '__main__':
     print("enter number of student: ")
     number_of_students = int(input())

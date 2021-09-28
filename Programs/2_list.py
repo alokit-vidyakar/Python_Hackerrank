@@ -2,6 +2,7 @@
 
 lists = ["first", "second", "third"]
 print(lists)
+print("Printing items with *: ", *lists)
 print("first item in list is: ",lists[0].title())
 
 #sorting in reverse
@@ -48,4 +49,4 @@ def popItemFromList(index):
 def popItemFromList():
 	lists.pop()
 popped_item=popItemFromList()
-print(lists)
+print("final list is:",lists)
