@@ -12,5 +12,4 @@ for arr in words:
     else:
         dictionary[arr]=1
 print(len(dictionary))
-second =[]
 print(*(dictionary.values()))
