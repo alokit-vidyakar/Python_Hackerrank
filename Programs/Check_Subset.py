@@ -7,8 +7,8 @@ for i in range(0,test_case):
 	nb = int(input())
 	set_b = set(map(int,input().split()))
 
-	set_differece = set_a.difference(set_b)
-	if len(set_differece)==0:
+	set_a.difference_update(set_b)
+	if len(set_a)==0:
 		print("True")
 	else:
 		print("False")	
